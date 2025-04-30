@@ -8,3 +8,12 @@ function sumar(a, b) {
 
   sumar(4,7)
   restar(10,4)
+
+  function multiplicar(a, b) {
+    return a * b;
+  }
+  
+  function dividir(a, b) {
+    if (b === 0) throw new Error("División por cero");
+    return a / b;
+  }
